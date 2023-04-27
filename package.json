@@ -1,0 +1,41 @@
+{
+	"name": "gateway-management-api",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node ./src/index",
+		"test": "jest -i",
+		"lint": "eslint --ext .js,.jsx,.ts,.tsx",
+		"swagger-generate": "node src/swagger-autogen.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/krlosvilla101994/Gateway-Management-Api.git"
+	},
+	"author": "krlosvilla101994",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/krlosvilla101994/Gateway-Management-Api/issues"
+	},
+	"homepage": "https://github.com/krlosvilla101994/Gateway-Management-Api#readme",
+	"dependencies": {
+		"body-parser": "^1.20.2",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"helmet": "^6.1.5",
+		"jsonwebtoken": "^8.5.1",
+		"method-override": "^3.0.0",
+		"mongoose": "^6.10.5",
+		"morgan": "^1.10.0",
+		"swagger-ui-express": "^4.6.2",
+		"winston": "^3.8.2"
+	},
+	"devDependencies": {
+		"eslint": "^8.39.0",
+		"jest": "^29.5.0",
+		"supertest": "^6.3.3",
+		"swagger-autogen": "^2.23.1"
+	}
+}
