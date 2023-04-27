@@ -1,6 +1,6 @@
 # Device-Gateway-Manager
 
-![Run Test](https://github.com/github/docs/actions/workflows/node.js.yml/badge.svg)
+[![Run tests](https://github.com/diliamcc/Device-Gateway-Manager/actions/workflows/node.js.yml/badge.svg)](https://github.com/diliamcc/Device-Gateway-Manager/actions/workflows/node.js.yml)
 
 ## Description
 
