@@ -1,5 +1,7 @@
 # Device-Gateway-Manager
 
+![Run Test](https://github.com/github/docs/actions/workflows/node.js.yml/badge.svg)
+
 ## Description
 
 This project is a REST-API for managing gateways (master devices that control multiple peripheral devices). Implemented using express.js and mongoose.js
