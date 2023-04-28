@@ -19,6 +19,9 @@ $ yarn
 
 ```bash
 # all the tests
+#with npm
+$npm test 
+#with yarn
 $ yarn test
 
 # specific ones
