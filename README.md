@@ -24,6 +24,12 @@ $ yarn test
 # specific ones
 $ yarn test name-of-the-test
 ```
+<br>
+
+## Postman test use
+
+See the postman use [here](/api-colection/README.md).
+<br><br>
 
 ## Running the app
 
