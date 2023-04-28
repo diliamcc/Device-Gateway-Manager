@@ -10,8 +10,8 @@ This project is a REST-API for managing gateways (master devices that control mu
 
 ```bash
 # with npm
-$ npm i
-# with yarn (recomended)
+$ npm install
+# with yarn 
 $ yarn
 ```
 
@@ -55,14 +55,4 @@ http://{{HOST}}:{{PORT}}/v2/api-docs
 
 There is no difference on whether to use mongo locally or in a docker container, for both cases the mongo service must be running.
 
-## Container setup
 
-```bash
-# (on linux or mac)
-
-# this start the service on the background
-$ sudo docker-compose up -d
-
-# this start the service directly on the terminal
-$ sudo docker-compose up
-```
