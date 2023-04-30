@@ -59,3 +59,10 @@ http://{{HOST}}:{{PORT}}/v2/api-docs
 There is no difference on whether to use mongo locally or in a docker container, for both cases the mongo service must be running.
 
 
+## MongoDB Container setup
+
+```bash
+# run docker service in background
+$ docker-compose up -d
+```
+
